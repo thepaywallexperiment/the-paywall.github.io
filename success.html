@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#050505">
+  <title>Payment — THE PAYWALL</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main class="stage stage-copy">
+    <header class="brand">
+      <a href="index.html" class="brand-link">THE PAYWALL</a>
+    </header>
+
+    <section class="legal">
+      <p class="slot-label">TRANSMISSION RECEIVED</p>
+      <h1>Payment successful.</h1>
+      <p class="lede">Your slot has been purchased. Upload your video here.</p>
+      <p class="fine">A browser redirect is not final confirmation. THE PAYWALL verifies payment independently before a slot is marked sold.</p>
+
+      <a class="cta cta-link" id="upload-btn" href="#">UPLOAD VIDEO</a>
+      <p class="pay-note" id="upload-note" hidden></p>
+
+      <h2>Video requirements</h2>
+      <ul>
+        <li>Vertical video preferred</li>
+        <li>MP4 preferred</li>
+        <li>Maximum file size: <span id="max-size">100 MB</span></li>
+        <li>No copyrighted material without permission</li>
+        <li>No illegal content</li>
+        <li>No hateful or threatening content</li>
+        <li>No explicit sexual content</li>
+        <li>No misleading impersonation</li>
+        <li>THE PAYWALL may reject submissions that violate the rules</li>
+      </ul>
+      <p>Full moderation rules live in the <a href="terms.html">Terms &amp; Conditions</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="terms.html">Terms &amp; Conditions</a>
+    <p>THE PAYWALL © <span id="year">2026</span></p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
